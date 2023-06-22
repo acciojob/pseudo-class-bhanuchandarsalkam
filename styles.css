@@ -1,4 +1,9 @@
 /*  your css code here. If applicable */
-span{
+p::before{
+	content:"Before Element";
+	color:red;
+}
+p::after{
+	content:"After Element";
 	color:red;
 }
